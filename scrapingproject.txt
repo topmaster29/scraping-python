@@ -1,0 +1,61 @@
+to scape two websites, based on a briefing. If results are 99% accurate after our cross reference, we will bonus. If you can work fast en accurate it might resolve in a repetitive assignment
+scrape the sections:
+
+Strains
+Products
+
+
+scarpe on:
+
+name of the strain or product
+downoad the picture of the product (attach the name of the product to the picture)
+kind: (like Indica or Sativa of Hybrid)
+THC%
+CBD %
+Product rating
+Strain Rating
+
+
+About this product (text file)
+
+About the strain (tekstfiles, remove undelying links)
+
+(name product) effects
+
+feelings: (text)
+Negatives (text)
+Helps with (text)
+
+About this brand (logo + name)
+text file
+Stale LicenceNr
+
+————
+
+Strain Section
+
+Name of the Strain
+pictures (several, attach productname+nr)
+
+
+THC%
+CBD%
+flavor and aroms:
+Top Effect:
+
+desciption (text file), no hyperlinks
+
+(name strain) sensations:
+
+Feelings:
+Negatives:
+Strain Flavors:
+
+(name product) helps with
+
+textfile
+remove disclaimer
+
+leafly.com and weedmaps.com
+
+https://www.freelancer.com/u/AVR998?from=messaging&ref_project_id=34972483

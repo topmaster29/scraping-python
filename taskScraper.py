@@ -11,7 +11,7 @@ strain_origin_url = "https://consumer-api.leafly.com/api/strain_playlists/v2?"
 strain_page_per_take = 18
 strain_page_num = 342
 # strains list to excel
-# strainList = []
+
 strainList_name=[]
 strainList_url=[]
 strainList_category=[]
@@ -27,25 +27,12 @@ def scrapStrain():
         response = requests.get(strain_get_url.format(x, strain_page_per_take))
         strains = json.loads(response.text)['hits']['strain']
         for y in range(strain_page_per_take):
-            # _temp = {}
-            # _temp['name'] = strains[y]['name']
-            # _temp['url'] = strains[y]['nugImage']
-            # _temp['category'] = strains[y]['category']
-            # _temp['thc'] = strains[y]['cannabinoids']['thc']['percentile50']
-            # _temp['cbd'] = strains[y]['cannabinoids']['cbd']['percentile50']
-            # _temp['rating'] = strains[y]['averageRating']
-            # strainList.append(_temp)
-
             strainList_name.append(strains[y]['name']) 
             strainList_url.append(strains[y]['nugImage'])
             strainList_category.append(strains[y]['category']) 
             strainList_thc.append(strains[y]['cannabinoids']['thc']['percentile50'])
             strainList_cbd.append(strains[y]['cannabinoids']['cbd']['percentile50'])
             strainList_rating.append(strains[y]['averageRating'])
-
-        # print(strains)
-        # print(strain_get_url.format(x,strain_page_per_take))
-    # print(strainList_name)
     df = pd.DataFrame({
         'name' : strainList_name,
         'url':strainList_url,

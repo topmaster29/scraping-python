@@ -11,3 +11,5 @@ geckodriver.exe
 webscraping.py
 scrapingproject.txt
 test.json
+
+*.xlsx

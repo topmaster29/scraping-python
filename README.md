@@ -1,11 +1,14 @@
 # Web Scraping JavaScript Generated Pages with Python
 
-This project was created just for educational proposes.
+This project was created just for scraping on specified site.
 
 The code shows how to do web scraping dynamic content pages generated from Javascript using Python and Selenium.
 
-We use as data the NBA site to extract stats information from players and generate a json file with some top 10 rankings.  
-**Important: Educational Purposes Only**
+This project consist of 3 parts
+
+products.py
+strainDetail.py
+weedmap_strain.py
 
 ## Getting Started
 
@@ -37,15 +40,17 @@ With:
 pip install -r requirements.txt
 ```
 
-### Geckodriver 
+### Chrome driver 
 
-[You can find install instructions in the official repository.](https://github.com/mozilla/geckodriver/releases)
+[You can find install instructions in the official repository.](https://chromedriver.chromium.org/downloads)
 
 
 ## Running the code
 
 ```
-python webscraping.py
+py products.py
+py strainDetail.py
+py weedmap_strain.py
 ```
 
 ## Contributing
